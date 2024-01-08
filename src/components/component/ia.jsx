@@ -15,17 +15,17 @@ export function IA() {
           backgroundImage: "url('/placeholder.svg')",
         }}>
         <div
-          className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
-          <h1 className="text-4xl font-bold text-white">Cuidado y belleza para tu mascota</h1>
+          className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50 text-black">
+          <h1 className="text-4xl font-bold text-black">Cuidado y belleza para tu mascota</h1>
         </div>
       </div>
       <section className="max-w-4xl mx-auto mt-8">
-        <h2 className="text-2xl font-bold text-center mb-4">Nuestros trabajos</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <h2 className="text-2xl font-bold text-center mb-4 text-black">Nuestros trabajos</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-black">
           <Card>
             <img
               alt="Dog 1"
-              className="w-full h-48 object-cover text-black"
+              className="w-full h-48 object-cover"
               height="200"
               src="/placeholder.svg"
               style={{
