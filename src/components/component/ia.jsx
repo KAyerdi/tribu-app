@@ -7,6 +7,9 @@ import Link from "next/link";
 
 export function IA() {
   return (
+
+        //------------------- BANNER -------------------
+
     (<main
       className="flex flex-col items-center justify-center min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div
@@ -20,6 +23,10 @@ export function IA() {
           <h1 className="text-4xl font-bold text-black">Cuidado y belleza para tu mascota</h1>
         </div>
       </div>
+      
+
+      // -------------- CARROUSEL PERROS CARDS ------------------
+
       <section className="max-w-4xl mx-auto mt-8">
         <h2 className="text-2xl font-bold text-center mb-4 text-black">Nuestros trabajos</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-black">
@@ -89,6 +96,10 @@ export function IA() {
           </Card>
         </div>
       </section>
+
+      //------------- FORM ---------------
+
+
       <div className="max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
@@ -166,6 +177,9 @@ export function IA() {
             </button>
           </div>
         </form>
+
+        //----------------- SOCIAL BUTTONS -----------------
+
         <div className="flex justify-center space-x-4 mt-4">
           <Link className="text-blue-600 hover:text-blue-800" href="#">
             <i className="fab fa-facebook-square text-3xl" />
@@ -176,7 +190,13 @@ export function IA() {
           <Link className="text-green-600 hover:text-green-800" href="#">
             <i className="fab fa-whatsapp-square text-3xl" />
           </Link>
+
         </div>
+
+
+        //--------------- MAPA -----------------------------
+        // agregar mapa a la web
+
       </div>
     </main>)
   );
