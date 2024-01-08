@@ -1,5 +1,6 @@
 import { IA } from '@/components/component/ia'
 
+
 function Home (){
   return (
     <div>
