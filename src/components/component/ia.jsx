@@ -25,13 +25,12 @@ export function IA() {
           <Card>
             <img
               alt="Dog 1"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover text-black"
               height="200"
               src="/placeholder.svg"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
-                text: "#000"
               }}
               width="200" />
             <CardContent>
