@@ -12,8 +12,8 @@ export function IA() {
       <div
         className="w-full h-64 bg-cover bg-center"
         style={{
-          backgroundImage: `url('/9.jpeg')`,
-          backgroundPosition: 'center',
+          backgroundImage: `url('/1.jpeg')`,
+          backgroundSize: "cover",
         }}>
         <div
           className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50 text-black">
@@ -28,15 +28,15 @@ export function IA() {
               alt="Dog 1"
               className="w-full h-48 object-cover"
               height="200"
-              src="/placeholder.svg"
+              src="/1.jpeg"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
               }}
               width="200" />
-            <CardContent>
-              <CardTitle>Perro 1</CardTitle>
-              <CardDescription>Un corte elegante y limpio</CardDescription>
+            <CardContent className="mt-5">
+              <CardTitle> Hook </CardTitle>
+              <CardDescription className="mt-2">Un corte elegante y limpio</CardDescription>
             </CardContent>
           </Card>
           <Card>
@@ -44,15 +44,15 @@ export function IA() {
               alt="Dog 2"
               className="w-full h-48 object-cover"
               height="200"
-              src="/placeholder.svg"
+              src="/2.jpeg"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
               }}
               width="200" />
-            <CardContent>
-              <CardTitle>Perro 2</CardTitle>
-              <CardDescription>Un baño relajante y refrescante</CardDescription>
+            <CardContent className="mt-5">
+              <CardTitle >Panchi</CardTitle>
+              <CardDescription className="mt-2">Un baño relajante y refrescante</CardDescription>
             </CardContent>
           </Card>
           <Card>
@@ -60,15 +60,15 @@ export function IA() {
               alt="Dog 3"
               className="w-full h-48 object-cover"
               height="200"
-              src="/placeholder.svg"
+              src="/3.jpeg"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
               }}
               width="200" />
-            <CardContent>
-              <CardTitle>Perro 3</CardTitle>
-              <CardDescription>Un estilo moderno y a la moda</CardDescription>
+            <CardContent className="mt-5">
+              <CardTitle>Florinda</CardTitle>
+              <CardDescription className="mt-2">Un estilo moderno y a la moda</CardDescription>
             </CardContent>
           </Card>
           <Card>
@@ -76,15 +76,15 @@ export function IA() {
               alt="Dog 4"
               className="w-full h-48 object-cover"
               height="200"
-              src="/placeholder.svg"
+              src="/4.jpeg"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
               }}
               width="200" />
-            <CardContent>
-              <CardTitle>Perro 4</CardTitle>
-              <CardDescription>Un look clásico y atemporal</CardDescription>
+            <CardContent className="mt-5">
+              <CardTitle>Milka</CardTitle>
+              <CardDescription className="mt-2">Un look clásico y atemporal</CardDescription>
             </CardContent>
           </Card>
         </div>
