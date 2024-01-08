@@ -12,7 +12,8 @@ export function IA() {
       <div
         className="w-full h-64 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/public/1.jpeg')",
+          backgroundImage: `url('/9.jpeg')`,
+          backgroundPosition: 'center',
         }}>
         <div
           className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50 text-black">
