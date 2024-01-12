@@ -29,18 +29,6 @@ export function IA() {
           <Card>
 
             <Image src="/1.jpeg" alt="Dog 1" width={260} height={200} />
-            
-            <img
-              alt='Dog 1'
-              className='w-full h-48 object-cover'
-              height='200'
-              src='/1.jpeg'
-              style={{
-                aspectRatio: "200/200",
-                objectFit: "cover",
-              }}
-              width='200'
-            />
             <CardContent className='mt-5'>
               <CardTitle> Hook </CardTitle>
               <CardDescription className='mt-2'>
@@ -49,17 +37,7 @@ export function IA() {
             </CardContent>
           </Card>
           <Card>
-            <img
-              alt='Dog 2'
-              className='w-full h-48 object-cover'
-              height='200'
-              src='/2.jpeg'
-              style={{
-                aspectRatio: "200/200",
-                objectFit: "cover",
-              }}
-              width='200'
-            />
+          <Image src="/2.jpeg" alt="Dog 1" width={260} height={200} />
             <CardContent className='mt-5'>
               <CardTitle>Panchi</CardTitle>
               <CardDescription className='mt-2'>
@@ -68,17 +46,7 @@ export function IA() {
             </CardContent>
           </Card>
           <Card>
-            <img
-              alt='Dog 3'
-              className='w-full h-48 object-cover'
-              height='200'
-              src='/3.jpeg'
-              style={{
-                aspectRatio: "200/200",
-                objectFit: "cover",
-              }}
-              width='200'
-            />
+          <Image src="/3.jpeg" alt="Dog 1" width={260} height={200} />
             <CardContent className='mt-5'>
               <CardTitle>Florinda</CardTitle>
               <CardDescription className='mt-2'>
@@ -87,17 +55,7 @@ export function IA() {
             </CardContent>
           </Card>
           <Card>
-            <img
-              alt='Dog 4'
-              className='w-full h-48 object-cover'
-              height='200'
-              src='/4.jpeg'
-              style={{
-                aspectRatio: "200/200",
-                objectFit: "cover",
-              }}
-              width='200'
-            />
+          <Image src="/4.jpeg" alt="Dog 1" width={260} height={200} />
             <CardContent className='mt-5'>
               <CardTitle>Milka</CardTitle>
               <CardDescription className='mt-2'>
