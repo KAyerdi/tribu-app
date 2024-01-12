@@ -82,12 +82,14 @@ export function IA() {
         </div>
       </section>
 
-      <form className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
+      <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
         <div>
           <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
             Reserva tu cita para el cuidado de tu mascota
           </h2>
         </div>
+        </div>
+        
         < form className='mt-8 space-y-6'>
           <div className='rounded-md shadow-sm -space-y-px'>
             <div>
@@ -165,6 +167,8 @@ export function IA() {
       </form>
 
         <div>
+          <h1>Donde nos encontras ?</h1>
+          <h2>Malvinas Argentinas 240. Entre calle Los Alamos y Rebagliatti</h2>
           <iframe
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412.0700896637636!2d-60.2494795679535!3d-34.28525239344473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b90dc93555b4a1%3A0x8e7c2ed78d0ccebf!2sTRIBU%20Forrajeria!5e0!3m2!1ses!2sar!4v1705064812927!5m2!1ses!2sar'
             width='600'
