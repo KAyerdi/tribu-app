@@ -181,7 +181,7 @@ export function IA() {
         </button>
       </form>
         <div className='mt-6  text-center text-3xl font-extrabold text-gray-900'>
-        <h1>Donde nos encontras ?</h1>
+        <h2>Donde nos encontras ?</h2>
         <h2>Malvinas Argentinas 240. Entre calle Los Alamos y Rebagliatti</h2>
         </div>
         <div>
