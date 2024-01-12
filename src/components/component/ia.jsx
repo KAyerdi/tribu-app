@@ -156,7 +156,7 @@ export function IA() {
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412.0700896637636!2d-60.2494795679535!3d-34.28525239344473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b90dc93555b4a1%3A0x8e7c2ed78d0ccebf!2sTRIBU%20Forrajeria!5e0!3m2!1ses!2sar!4v1705064812927!5m2!1ses!2sar'
             width='600'
             height='450'
-            style='border:0;'
+            style={{border: '0'}}
             allowfullscreen=''
             loading='lazy'
             referrerpolicy='no-referrer-when-downgrade'
