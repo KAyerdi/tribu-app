@@ -89,7 +89,7 @@ export function IA() {
           </h2>
         </div>
         </div>
-        
+
         < form className='mt-8 space-y-6'>
           <div className='rounded-md shadow-sm -space-y-px'>
             <div>
@@ -181,15 +181,15 @@ export function IA() {
         </div>
 
         <div className="flex justify-center space-x-4 mt-4">
-          <Link className="text-blue-600 hover:text-blue-800" href="#">
+          <Link className="text-blue-600 hover:text-blue-800" href="https://www.facebook.com/TRIBUFORRAJERIASALTO">
             <i className="fab fa-facebook-square text-3xl" />
           </Link>
 
-          <Link className="text-pink-600 hover:text-pink-800" href="#">
+          <Link className="text-pink-600 hover:text-pink-800" href="https://www.instagram.com/tribu.forrajeria/">
             <i className="fab fa-instagram-square text-3xl" />
           </Link>
 
-          <Link className="text-green-600 hover:text-green-800" href="#">
+          <Link className="text-green-600 hover:text-green-800" href="https://wa.me/2474455750">
             <i className="fab fa-whatsapp-square text-3xl" />
           </Link>
         </div>
