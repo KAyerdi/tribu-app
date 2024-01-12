@@ -27,6 +27,9 @@ export function IA() {
         </h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-black'>
           <Card>
+
+            <Image src="/1.jpeg" alt="Dog 1" width={260} height={200} />
+            
             <img
               alt='Dog 1'
               className='w-full h-48 object-cover'
