@@ -3,6 +3,8 @@
  * @see https://v0.dev/t/l6VwW3Lmy62
  */
 import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
+import Image from 'next/image';
+
 
 export function IA() {
   return (
