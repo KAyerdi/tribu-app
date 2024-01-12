@@ -68,7 +68,7 @@ export function IA() {
         </div>
       </section>
 
-      <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
+      < className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
         <div>
           <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
             Reserva tu cita para el cuidado de tu mascota
@@ -162,7 +162,18 @@ export function IA() {
             referrerpolicy='no-referrer-when-downgrade'
           ></iframe>
         </div>
-      </div>
+        
+        <div className="flex justify-center space-x-4 mt-4">
+          <Link className="text-blue-600 hover:text-blue-800" href="#">
+            <i className="fab fa-facebook-square text-3xl" />
+          </Link>
+          <Link className="text-pink-600 hover:text-pink-800" href="#">
+            <i className="fab fa-instagram-square text-3xl" />
+          </Link>
+          <Link className="text-green-600 hover:text-green-800" href="#">
+            <i className="fab fa-whatsapp-square text-3xl" />
+          </Link>
+        </div>
     </main>
   );
 }
