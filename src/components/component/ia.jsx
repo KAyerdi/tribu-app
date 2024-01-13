@@ -197,7 +197,7 @@ export function IA() {
           referrerpolicy='no-referrer-when-downgrade'
         ></iframe>
       </div>
-      <div class='flex justify-center space-x-4'>
+      <div class='bg-gray-100 p-8'>
         <a
           href='https://www.facebook.com/TRIBUFORRAJERIASALTO'
           target='_blank'
