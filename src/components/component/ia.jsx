@@ -28,9 +28,13 @@ export function IA() {
         </div>
       </div>
       <section className='max-w-4xl mx-auto mt-8'>
-        <h2 className='text-2xl font-bold text-center mb-4 text-black'>
-          Nuestros trabajos
-        </h2>
+      <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
+        <div>
+          <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
+            Nuestros Trabajos
+          </h2>
+        </div>
+      </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-black'>
           <Card>
             <Image
