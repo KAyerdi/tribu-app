@@ -105,7 +105,7 @@ export function IA() {
           </h2>
         </div>
       </div>
-      <form className='mt-8 space-y-6'>
+      <form className='mt-8 space-y-8'>
         <div className='rounded-md shadow-sm -space-y-px'>
           <div>
             <label className='sr-only' htmlFor='name'>
