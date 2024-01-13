@@ -213,7 +213,7 @@ export function IA() {
           <i className='fab fa-whatsapp-square text-3xl' />
         </Link>
       </div>
-      <div className='mt-6 text-center text-3xlfont-extrabold text-gray-900'>
+      <div className='mt-8 space-y-8 text-center text-3xl font-extrabold text-gray-900'>
         <h2>Malvinas Argentinas 240. Entre Los Alamos y Rebagliatti.</h2>
       </div>
     </main>
