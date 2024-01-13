@@ -216,8 +216,12 @@ export function IA() {
           <i className='fab fa-whatsapp-square text-3xl' />
         </Link>
       </div>
-      <div className='mt-8 space-y-8 text-center text-3xl font-extrabold text-gray-900'>
-        <h2>Malvinas Argentinas 240. Entre Los Alamos y Rebagliatti.</h2>
+      <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
+        <div>
+          <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
+            Malvinas Argentinas 240. Entre calle Los Alamos y Rebagliatti
+          </h2>
+        </div>
       </div>
     </main>
   );
