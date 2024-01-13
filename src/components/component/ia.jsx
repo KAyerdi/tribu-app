@@ -197,6 +197,13 @@ export function IA() {
           referrerpolicy='no-referrer-when-downgrade'
         ></iframe>
       </div>
+      <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
+        <div>
+          <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
+            Malvinas Argentinas 240. Entre calle Los Alamos y Rebagliatti
+          </h2>
+        </div>
+      </div>
       <div class='bg-gray-100 p-8'>
         <a
           href='https://www.facebook.com/TRIBUFORRAJERIASALTO'
@@ -224,14 +231,6 @@ export function IA() {
         >
           WhatsApp
         </a>
-      </div>
-
-      <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
-        <div>
-          <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
-            Malvinas Argentinas 240. Entre calle Los Alamos y Rebagliatti
-          </h2>
-        </div>
       </div>
     </main>
   );
