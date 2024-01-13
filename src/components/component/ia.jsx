@@ -9,7 +9,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Image from "next/image";
-import Link from 'next/link';
 
 export function IA() {
   return (
@@ -28,13 +27,13 @@ export function IA() {
         </div>
       </div>
       <section className='max-w-4xl mx-auto mt-8'>
-      <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
-        <div>
-          <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
-            Nuestros Trabajos
-          </h2>
+        <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
+          <div>
+            <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
+              Nuestros Trabajos
+            </h2>
+          </div>
         </div>
-      </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-black'>
           <Card>
             <Image
@@ -198,11 +197,35 @@ export function IA() {
           referrerpolicy='no-referrer-when-downgrade'
         ></iframe>
       </div>
-      <div className='flex justify-center space-x-4 mt-4'>
-        <a href="https://www.facebook.com/TRIBUFORRAJERIASALTO"><i className="fa-brands fa-facebook"></i></a>
-        <a href="https://www.instagram.com/tribu.forrajeria"><i className="fa-brands fa-instagram"></i></a>
-        <a href="https://wa.me/2474455750"><i className="fa-brands fa-whatsapp"></i></a>
+      <div class='flex justify-center space-x-4'>
+        <a
+          href='https://www.facebook.com/TRIBUFORRAJERIASALTO'
+          target='_blank'
+          rel='noopener noreferrer'
+          class='bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'
+        >
+          Facebook
+        </a>
+
+        <a
+          href='https://www.instagram.com/tribu.forrajeria'
+          target='_blank'
+          rel='noopener noreferrer'
+          class='bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded'
+        >
+          Instagram
+        </a>
+
+        <a
+          href='https://wa.me/2474455750'
+          target='_blank'
+          rel='noopener noreferrer'
+          class='bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded'
+        >
+          WhatsApp
+        </a>
       </div>
+
       <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
         <div>
           <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
