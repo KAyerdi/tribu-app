@@ -199,26 +199,9 @@ export function IA() {
         ></iframe>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
-        <Link
-          className='text-blue-600 hover:text-blue-800'
-          href='https://www.facebook.com/TRIBUFORRAJERIASALTO'
-        >
-          <i className='fab fa-facebook-square text-3xl' />
-        </Link>
-
-        <Link
-          className='text-pink-600 hover:text-pink-800'
-          href='https://www.instagram.com/tribu.forrajeria/'
-        >
-          <i className='fab fa-instagram-square text-3xl' />
-        </Link>
-
-        <Link
-          className='text-green-600 hover:text-green-800'
-          href='https://wa.me/2474455750'
-        >
-          <i className='fab fa-whatsapp-square text-3xl' />
-        </Link>
+        <a href="https://www.facebook.com/TRIBUFORRAJERIASALTO"><i className="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/tribu.forrajeria"><i className="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/2474455750"><i className="fa-brands fa-whatsapp"></i></a>
       </div>
       <div className='max-w-md w-full space-y-8 mt-8 rounded-lg shadow-lg p-6'>
         <div>
